@@ -1,31 +1,35 @@
-# portfolio
+# i.shakhorski.com
 
-## Project Setup
+This is a resume application.
 
-```sh
-npm install
-```
+### Installation
 
-### Compile and Hot-Reload for Development
+Install dependencies:
 
 ```sh
-npm run dev
+	bun install
 ```
 
-### Type-Check, Compile and Minify for Production
+### Running the App
+
+Start the development server:
 
 ```sh
-npm run build
+	bun run dev
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Start the preview server:
 
 ```sh
-npm run test:unit
+	bun run preview
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Building for Production
+
+1. Build the application:
 
 ```sh
-npm run lint
+   bun run build
 ```
+
+2. The output will be in the `dist` directory.

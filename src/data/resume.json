@@ -1,0 +1,122 @@
+{
+	"basics": {
+		"name": "Ivan Shakhorski",
+		"location": {
+			"city": "Warsaw",
+			"countryCode": "PL"
+		},
+		"email": "ivan.shakhorski@gmail.com",
+		"phone": "+48571942948",
+		"url": "https://github.com/ishakhorski",
+		"summary": "A highly skilled Software Engineer with over four years of experience in commercial software development, specializing in frontend development with Vue.js and possessing a deep understanding of API design and integration. Proven high expertise in building various web applications. Experience in backends using Node.js. Measurable contributions to e-commerce, machine learning, social network, and government domains. Passionate about creating impactful user experiences and driving business outcomes.",
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "ishakhorski",
+				"url": "https://github.com/ishakhorski"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "ivan-shakhorski",
+				"url": "https://www.linkedin.com/in/ivan-shakhorski-b551b91ba/"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Innowise",
+			"position": "Frontend Engineer",
+			"startDate": "2021-01",
+			"endDate": "Present",
+			"summary": "Led the development of high-performance web applications across e-commerce, government, machine learning, and marketing domains. Designed scalable frontend architectures using Vue.js, mentored junior developers, and optimized CI/CD processes.",
+			"highlights": [
+				"Led development of high-performance web applications across diverse domains.",
+				"Designed and implemented scalable frontend architectures.",
+				"Mentored junior developers and enhanced team proficiency.",
+				"Streamlined CI/CD processes using Docker, TeamCity, and cloud services.",
+				"Implemented automation testing with Cypress, Vitest, and Jest."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Belarusian State Technological University",
+			"area": "Software Engineering",
+			"studyType": "Bachelor's",
+			"startDate": "2018",
+			"endDate": "2021"
+		}
+	],
+	"certifications": [
+		{
+			"name": "Vue.js Senior Developer Level II",
+			"date": "2024",
+			"issuer": "Vue.js & Vueschool.io",
+			"url": "https://certificates.dev/c/9d8a5dde-e01e-4408-a211-ae8fbf7856b3"
+		}
+	],
+	"skills": [
+		{
+			"name": "Frontend Development",
+			"keywords": [
+				"Vue.js",
+				"Nuxt.js",
+				"TypeScript",
+				"HTML/HTML5",
+				"CSS/CSS3",
+				"SCSS/SASS",
+				"Vuex/Pinia",
+				"i18n",
+				"TailwindCSS",
+				"HeadlessUI",
+				"d3.js"
+			]
+		},
+		{
+			"name": "Backend Development",
+			"keywords": [
+				"Node.js",
+				"Nest.js",
+				"AWS Services",
+				"Google Cloud Console",
+				"Serverless Framework"
+			]
+		},
+		{
+			"name": "Tools & Methodologies",
+			"keywords": [
+				"Docker",
+				"Git",
+				"TeamCity",
+				"Jira",
+				"Confluence",
+				"Cypress",
+				"Vitest",
+				"Webpack",
+				"Vite"
+			]
+		},
+		{
+			"name": "Others",
+			"keywords": [
+				"CI/CD",
+				"ESLint",
+				"Prettier"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Professional working proficiency"
+		},
+		{
+			"language": "Russian",
+			"fluency": "Native"
+		},
+		{
+			"language": "Belarusian",
+			"fluency": "Native"
+		}
+	]
+}
