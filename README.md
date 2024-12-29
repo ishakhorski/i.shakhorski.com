@@ -7,7 +7,7 @@ This is a resume application.
 Install dependencies:
 
 ```sh
-	bun install
+bun install
 ```
 
 ### Running the App
@@ -15,13 +15,13 @@ Install dependencies:
 Start the development server:
 
 ```sh
-	bun run dev
+bun run dev
 ```
 
 Start the preview server:
 
 ```sh
-	bun run preview
+bun run preview
 ```
 
 ### Building for Production
@@ -29,7 +29,7 @@ Start the preview server:
 1. Build the application:
 
 ```sh
-   bun run build
+bun run build
 ```
 
 2. The output will be in the `dist` directory.
