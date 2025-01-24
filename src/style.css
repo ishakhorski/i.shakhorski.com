@@ -1,31 +1,42 @@
 :root {
-  font-family: "Lexend", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --color-white: #ffffffde;
+  --color-black: #242424;
+  --color-gray: #52525b;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: var(--color-white);
+    background-color: var(--color-black);
+  }
+}
+
+body {
+  font-family: 'Lexend', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
   font-optical-sizing: auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-body {
   margin: 0;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+p {
+  margin: 0;
 }

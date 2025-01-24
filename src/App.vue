@@ -1,18 +1,81 @@
 <script setup lang="ts">
-import SectionBasics from "./components/SectionBasics.vue";
-import SectionEducation from "./components/SectionEducation.vue";
-import SectionCertifications from "./components/SectionCertifications.vue";
-import SectionWork from "./components/SectionWork.vue";
+const PROFILE_GITHUB = import.meta.env.VITE_PROFILE_GITHUB
+const PROFILE_LINKEDIN = import.meta.env.VITE_PROFILE_LINKEDIN
 </script>
 
 <template>
-  <main>
-    <SectionBasics />
+  <header class="app-header">
+    <h1>Ivan Shakhorski</h1>
 
-    <SectionEducation />
+    <p>Warsaw, <span>Poland 📍</span></p>
+  </header>
 
-    <SectionCertifications />
+  <main class="app-content">
+    <section class="app-section">
+      <h2>About me</h2>
 
-    <SectionWork />
+      <p>
+        Hey! I'm a passionate <b>Software Engineer</b> specializing in building <b>web applications</b>, delivering
+        <b>well-accessable interfaces</b> and creating <b>high-quality UX</b>. With a focus on
+        <b>problem-solving</b> and <b>innovation</b>, I'm driven by <b>collaboration</b>, continuous <b>improvement</b>,
+        and a <b>passion</b> for building solutions that make an <b>impact</b>.
+      </p>
+    </section>
   </main>
+
+  <footer class="app-footer">
+    <a :href="PROFILE_GITHUB" target="_blank"> LinkedIn ↗ </a>
+    <a :href="PROFILE_LINKEDIN" target="_blank"> GitHub ↗ </a>
+  </footer>
 </template>
+
+<style>
+#app {
+  max-width: 1024px;
+  min-height: 100dvh;
+  margin: 0 auto;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 489px) {
+  .app-header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.app-header h1 {
+  font-size: 24px;
+}
+
+.app-header p {
+  font-size: 16px;
+  color: var(--color-gray);
+}
+
+.app-header p span {
+  white-space: nowrap;
+}
+
+.app-content {
+  padding: 1rem 2rem;
+}
+
+.app-footer {
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.app-section h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--color-gray);
+}
+</style>
