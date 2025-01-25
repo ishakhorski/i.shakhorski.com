@@ -12,20 +12,20 @@ const PROFILE_LINKEDIN = import.meta.env.VITE_PROFILE_LINKEDIN
 
   <main class="app-content">
     <section class="app-section">
-      <h2>About me</h2>
+      <h2 v-motion :duration="600" :initial="{ opacity: 0, y: 12 }" :visible-once="{ opacity: 1, y: 0 }">About me</h2>
 
       <p>
         Hey! I'm a passionate <b>Software Engineer</b> specializing in building <b>web applications</b>, delivering
-        <b>well-accessable interfaces</b> and creating <b>high-quality UX</b>. With a focus on
-        <b>problem-solving</b> and <b>innovation</b>, I'm driven by <b>collaboration</b>, continuous <b>improvement</b>,
-        and a <b>passion</b> for building solutions that make an <b>impact</b>.
+        <b>well-accessable UI</b> and creating <b>high-quality UX</b>. With a focus on <b>problem-solving</b> and
+        <b>innovation</b>, I'm driven by <b>collaboration</b>, continuous <b>improvement</b>, and a <b>passion</b> for
+        building solutions that make an <b>impact</b>.
       </p>
     </section>
   </main>
 
   <footer class="app-footer">
-    <a :href="PROFILE_GITHUB" target="_blank"> LinkedIn ↗ </a>
-    <a :href="PROFILE_LINKEDIN" target="_blank"> GitHub ↗ </a>
+    <a :href="PROFILE_LINKEDIN" target="_blank"> LinkedIn ↗ </a>
+    <a :href="PROFILE_GITHUB" target="_blank"> GitHub ↗ </a>
   </footer>
 </template>
 
@@ -68,9 +68,10 @@ const PROFILE_LINKEDIN = import.meta.env.VITE_PROFILE_LINKEDIN
 }
 
 .app-footer {
-  padding: 1rem 2rem;
   display: flex;
-  gap: 0.5rem;
+  justify-content: end;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
 }
 
 .app-section h2 {
